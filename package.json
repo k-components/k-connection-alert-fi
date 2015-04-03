@@ -1,0 +1,21 @@
+{
+  "name": "k-connection-alert-fi",
+  "description": "Connection alert Derby component",
+  "version": "0.1.2",
+  "main": "index.js",
+  "keywords": [
+    "derby",
+    "component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/k-components/k-connection-alert-fi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/k-components/k-connection-alert-fi/issues"
+  },
+  "author": "Nate Smith",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

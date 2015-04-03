@@ -1,0 +1,15 @@
+<index:>
+  {{if #root.$connection.state !== 'connected'}}
+    <div class="connection">
+      <p class="alert alert-warning">
+        {{if #root.$connection.state === 'stopped'}}
+          Sivusto ei nyt näytä vastaavan &ndash; <a on-click="reload()">kokeile uudelleen</a>
+        {{else}}
+          {{translate(#root.$connection.state)}}
+          {{unless hideReconnect}}
+            &sp;&ndash; <a on-click="reconnect()">Yhdistä</a>
+          {{/unless}}
+        {{/if}}
+      </p>
+    </div>
+  {{/if}}
